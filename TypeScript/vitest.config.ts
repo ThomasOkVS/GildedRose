@@ -8,7 +8,7 @@ export default defineConfig({
     include: ['test/vitest/**/*.{spec,test}.{js,ts}'],
     coverage: {
       provider: 'istanbul',
-      reporter: ['text', 'html']
+      reporter: ['text', 'html', 'lcov']
     }
   },
 });
